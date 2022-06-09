@@ -6,8 +6,9 @@
 - `pip install -r requirements.txt` - install requirements(poetry)
 - `poetry shell` - enter a virtual environment
 - `poetry install` - install required modules
+- `export $(cat .env.dev | egrep -v "(^#.*|^$)" | xargs)` - export environment 
+  variables
 - `docker-compose -f docker-compose.dev.yml up -d` - run postgres inside a docker container
-- `export $(cat .env | egrep -v "(^#.*|^$)" | xargs)` - export environment variables
 - `uvicorn src.main:app --host 0.0.0.0 --port 8000` - run server
 
 ### production
