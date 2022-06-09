@@ -10,3 +10,6 @@ services:
     volumes:
       - db:/var/lib/postgresql/data
     restart: always
+
+volumes:
+  db:
