@@ -19,8 +19,8 @@
 This is my solution for test task for selection for an internship
 
 ## Progress
-- [ ] create backbone server
-- [ ] create authorization with OAuth2
+- [x] create backbone server
+- [x] create authorization with OAuth2
 - [ ] create endpoint for frames posting
 - [ ] create endpoint for frames getting
 - [ ] create endpoint for frames deleting
