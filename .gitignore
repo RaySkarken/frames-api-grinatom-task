@@ -112,9 +112,6 @@ pip-selfcheck.json
 *.log.*
 *.sig
 
-pkg/
-src/
-
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
